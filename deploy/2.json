@@ -24,11 +24,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "write-home-timeline-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "WriteHomeTimelineService"
                 ]
@@ -80,11 +79,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "write-user-timeline-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "WriteUserTimelineService"
                 ]

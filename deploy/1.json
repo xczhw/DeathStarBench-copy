@@ -31,7 +31,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "jaeger",
@@ -97,7 +96,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-5",
             "containers": [
               {
                 "name": "nginx-thrift",
@@ -162,11 +160,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "compose-post-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "ComposePostService"
                 ]
@@ -218,7 +215,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "compose-post-redis",
@@ -276,11 +272,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-2",
             "containers": [
               {
                 "name": "home-timeline-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "HomeTimelineService"
                 ]
@@ -332,7 +327,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "home-timeline-redis",
@@ -390,11 +384,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "media-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "MediaService"
                 ]
@@ -446,11 +439,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-3",
             "containers": [
               {
                 "name": "post-storage-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "PostStorageService"
                 ]
@@ -502,7 +494,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "post-storage-memcached",
@@ -565,7 +556,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "post-storage-mongodb",
@@ -622,11 +612,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "social-graph-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "SocialGraphService"
                 ]
@@ -678,7 +667,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "social-graph-mongodb",
@@ -735,7 +723,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "social-graph-redis",
@@ -793,11 +780,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "text-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "TextService"
                 ]
@@ -849,11 +835,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "unique-id-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "UniqueIdService"
                 ]
@@ -905,11 +890,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "url-shorten-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "UrlShortenService"
                 ]
@@ -961,11 +945,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "user-mention-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "UserMentionService"
                 ]
@@ -1017,11 +1000,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "user-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "UserService"
                 ]
@@ -1073,7 +1055,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "user-memcached",
@@ -1136,7 +1117,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "user-mongodb",
@@ -1193,11 +1173,10 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "user-timeline-service",
-                "image": "hypercube/social-network-ml-microservices:latest@sha256:1b8d25acb3137df320b80d7f9ccd55eb3bc8a1141fc57d78d57a978ce3e0d605",
+                "image": "xczhw/deathstarbench:latest@sha256:44bd2fb31741eaf5fb0940b89eecd524a73ec73bea629aa8d78ca6550d99f80f",
                 "command": [
                   "UserTimelineService"
                 ]
@@ -1249,7 +1228,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "user-timeline-mongodb",
@@ -1306,7 +1284,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "user-timeline-redis",
@@ -1364,7 +1341,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "write-home-timeline-rabbitmq",
@@ -1427,7 +1403,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "write-user-timeline-rabbitmq",
@@ -1492,7 +1467,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-2",
             "containers": [
               {
                 "name": "media-filter-service",
@@ -1529,7 +1503,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-3",
             "containers": [
               {
                 "name": "media-filter-service",
@@ -1566,7 +1539,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "media-filter-service",
@@ -1619,7 +1591,6 @@
             }
           },
           "spec": {
-            "nodeName": "autothrottle-4",
             "containers": [
               {
                 "name": "text-filter-service",
